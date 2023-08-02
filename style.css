@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+
+.overall {
+    width: 250px;
+    border-radius: 10px;
+    background-color:  hsl(216, 50%, 16%);
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.overall img {
+    display: block;
+    border-radius: 10px;
+    max-height: 50%;
+}
+
+.image {
+    overflow: hidden;
+    position: relative;
+}
+
+.image:hover .overlay {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.image:hover .icon {
+    visibility: visible;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+    opacity: 0;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+
+
+
+p.eq {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+p.eq:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+p.eth {
+    font-weight: 600;
+    font-size: 12px;
+    color:  hsla(0, 0%, 100%,0.5);
+}
+
+p.threedays {
+    color:  hsla(0, 0%, 100%,0.5);
+    font-size: 12px;
+}
+
+
+
+p.first {
+    font-weight: 300;
+    color: hsla(0, 0%, 100%,0.5);
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.ethprice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ethprice img {
+    display: inline-block;
+    width: 10%;
+    height:10% ;
+}
+
+.lastcontent {
+    border-top: 1px solid  hsla(0, 0%, 100%,0.3);
+    padding-top: 15px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%,0.5);
+}
+
+.last img {
+    max-width: 13%;
+    max-height: 13%;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+a {
+    color:white;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:    hsla(0, 0%, 100%,0.5);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:425px) {
+   
+}
+
+
+
+
+
+
+
+
+
